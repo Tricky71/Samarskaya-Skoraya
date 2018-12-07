@@ -254,8 +254,6 @@ input[type="radio"].visually-hidden {
     text-transform: uppercase;
     position: relative;
     margin-bottom: 30px;
-   
-    /* text-align: center; */
 }
 
 .features-item span::before { 
@@ -270,12 +268,6 @@ input[type="radio"].visually-hidden {
     left: -50px;
 }
 
-
-
-
-
-
-
 .main-services {
     width: 1350px;
     height: 560px; 
@@ -285,9 +277,6 @@ input[type="radio"].visually-hidden {
     background-position: top center;
     background-size: 1300px 700px;
     background-repeat: repeat;
-    /* overflow: hidden; */
-    /* margin-bottom: 100px; */
-  
 }
 
 .services-list {
@@ -298,42 +287,21 @@ input[type="radio"].visually-hidden {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    
-        flex-wrap: wrap;
-    /*-webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;*/
+     flex-wrap: wrap;
     -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-    /* overflow: hidden; */
+    -ms-flex-align: stretch;
+    align-items: stretch;
 }
 
 .services-item {
     width: 250px;
     min-height: 270px;
-    
     padding: 20px 27px;
     border: 5px solid #ffffff;  
-    
     text-align: center;
     background-color: #364e68;
     overflow: hidden;
-    /*display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;*/
 }
-
-
 
 .services-item:hover span {
     color: red;
@@ -346,8 +314,6 @@ input[type="radio"].visually-hidden {
     transition: all 1s ease-in-out;
     
 }
-
-
 
 .services-item:nth-child(even) {
     -webkit-transform: translateY(-35px) skewY(10deg);
@@ -371,16 +337,6 @@ input[type="radio"].visually-hidden {
     text-transform: uppercase;
     margin-bottom: 50px;
 }
-
-
-
-/* .services-item span:nth-child(even) { 
-    transform: skewY(10deg);
-}
-
-.services-item span:nth-child(odd) {
-    transform: skewY(-10deg);
-}*/
 
 .main-prices {
     width: 1350px;
@@ -439,49 +395,45 @@ input[type="radio"].visually-hidden {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     
 }
 
 .docs-item:hover {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
+}
+
+.docs-item:first-child {
+    z-index: 20;
 }
 
 .docs-item:nth-child(2) {
     margin-top: 30px;
     margin-left: -30px;
+    z-index: 10;
 }
 
 .docs-item:nth-child(3) {
     margin-top: 60px;
     margin-left: -30px;
+    z-index: 5;
 }
-
-/*.docs-item:nth-child(odd) {
-    transform: skewY(5deg);
-}
-
-.docs-item:nth-child(even) {
-    transform: skewY(-5deg);
-}*/
 
 .main-map {
     width: 1350px; 
     height: 400px;
     margin: 0 auto;
     margin-bottom: 5px;
-    
 }
 
 .map-window {
     position: relative;
-    
 }
 
 .map-contacts {
@@ -490,11 +442,8 @@ input[type="radio"].visually-hidden {
     padding: 80px 31px;
     font-size: 20px;
     line-height: 25px;
-    /* background-color: #364e68;  */
     background-image: 
-    linear-gradient(-115deg, transparent 20%, #23a393 20%  )
-    /*linear-gradient(-115deg, #23a393 20%, transparent 20% )*/;
-    /* border-right: 5px solid #ffffff; */
+    linear-gradient(-115deg, transparent 20%, #23a393 20%);
     color: #ebf0f6;
     position: absolute;
     top: 0;
@@ -504,11 +453,11 @@ input[type="radio"].visually-hidden {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; 
+    -ms-flex-align: center;
+    align-items: center; 
     overflow: hidden;        
 }
 
@@ -528,11 +477,8 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
-    /* width: 1350px; */
     margin: 0 auto;
     background-color: #364e68;
-    
-     
     padding: 30px 0;
 }
 
