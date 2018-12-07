@@ -314,11 +314,10 @@ input[type="radio"].visually-hidden {
 .services-item {
     width: 250px;
     min-height: 270px;
-    /*-webkit-box-sizing: border-box;
-            box-sizing: border-box;*/
+    
     padding: 20px 27px;
     border: 5px solid #ffffff;  
-    /* transform: translateY(-32px) skewY(10deg); */
+    
     text-align: center;
     background-color: #364e68;
     overflow: hidden;
