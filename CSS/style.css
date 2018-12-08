@@ -477,6 +477,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
+    width: 1350px;
     margin: 0 auto;
     background-color: #364e68;
     padding: 30px 0;
