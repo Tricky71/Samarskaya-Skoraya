@@ -196,14 +196,18 @@ input[type="radio"].visually-hidden {
 }
 
 .promo-tel-list li {
-    -webkit-text-fill-color: rgba(255, 0, 0, 1); 
+    -webkit-text-fill-color: rgba(202, 224, 250, 1); 
+    -webkit-opacity: 1; 
+   color: rgba(202, 224, 250, 1); 
+    font-size: 42px;
+    line-height: 50px;
+    -webkit-appearance: none;
+}
+
+.promo-tel-list b {
+-webkit-text-fill-color: rgba(255, 0, 0, 1); 
     -webkit-opacity: 1; 
    color: rgba(255, 0, 0, 1); 
-  
-    font-size: 40px;
-    line-height: 45px;
-    -webkit-appearance: none;
-    
 }
 
 .promo-info span {
