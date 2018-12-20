@@ -511,7 +511,7 @@ input[type="radio"].visually-hidden {
 
 .reg-info {
     width: 330px;
-    color: #ebf0f6;
+    /* color: #ebf0f6; */
     -webkit-text-fill-color: rgba(202, 224, 250, 1); 
     -webkit-opacity: 1; 
    color: rgba(202, 224, 250, 1);
