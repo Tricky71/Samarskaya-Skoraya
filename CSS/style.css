@@ -196,9 +196,8 @@ input[type="radio"].visually-hidden {
 }
 
 .promo-tel-list li {
-    /* color: #ff0000 !important; */
     -webkit-text-fill-color: rgba(255, 0, 0, 1); 
-   -webkit-opacity: 1; 
+    -webkit-opacity: 1; 
    color: rgba(255, 0, 0, 1); 
   
     font-size: 40px;
@@ -485,7 +484,10 @@ input[type="radio"].visually-hidden {
     font-size: 25px;
     line-height: 40px;
     display: block;
-    color: #ebf0f6;
+    -webkit-text-fill-color: rgba(202, 224, 250, 1); 
+    -webkit-opacity: 1; 
+   color: rgba(202, 224, 250, 1);
+    /* color: #cae0fa; */
 }
 
 .main-footer {
