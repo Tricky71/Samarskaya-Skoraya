@@ -197,8 +197,12 @@ input[type="radio"].visually-hidden {
 
 .promo-tel-list li {
     color: #ff0000 !important;
+    pointer-events:none !important;
+  cursor:default !important;
+  text-decoration:none !important;
     font-size: 40px;
     line-height: 45px;
+    -webkit-appearance: none;
     
 }
 
