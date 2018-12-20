@@ -173,7 +173,7 @@ input[type="radio"].visually-hidden {
     margin-left: -45px;
     padding: 50px 30px;
     background: linear-gradient(70deg, rgba(54, 78, 104, 0.8) 70%,transparent 70% ),
-          linear-gradient(125deg,rgba(54, 78, 104, 0.8) 50%, transparent 50% );
+          linear-gradient(125deg,rgba(54, 78, 104, 0.8) 55%, transparent 55% );
     -webkit-animation: slide 1s ease;
             animation: slide 1s ease;
     -webkit-animation-fill-mode: forwards;
@@ -192,9 +192,9 @@ input[type="radio"].visually-hidden {
 
 .promo-tel-list {
     width: 350px;
-    color: #ebf0f6;
-    font-size: 35px;
-    line-height: 40px;
+    color: red;
+    font-size: 40px;
+    line-height: 45px;
     margin-bottom: 150px;
 }
 
