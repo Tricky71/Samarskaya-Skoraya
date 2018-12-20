@@ -196,7 +196,7 @@ input[type="radio"].visually-hidden {
 }
 
 .promo-tel-list li {
-    color: #ff0000;
+    color: #ff0000 !important;
     font-size: 40px;
     line-height: 45px;
     
@@ -480,6 +480,7 @@ input[type="radio"].visually-hidden {
     font-size: 25px;
     line-height: 40px;
     display: block;
+    color: #ebf0f6;
 }
 
 .main-footer {
